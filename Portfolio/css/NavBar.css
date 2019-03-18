@@ -1,0 +1,82 @@
+header
+{
+    position: fixed;
+    background-color:#3C3831;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /*border-bottom: 1px solid;*/
+    /*border-color: white;*/
+    height: fit-content;
+}
+
+#NavTitle
+{
+    color: white;
+    position: relative;
+    max-height: 40px;
+    top: -15px;
+}
+
+#NavBarMenu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#NavBarMenu li
+{
+    display:inline-block;
+    position: relative;
+    padding-left: 5px;
+
+}
+
+#NavBarMenu .active
+{
+    color: #F9D342;
+}
+
+#NavBarMenu a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#NavBarMenu a:hover
+{
+    color: #F9D342;
+}
+
+@media only screen and (min-width: 767px) {
+
+    #NavBarMenu a::before
+    {
+        content: '';
+        display: block;
+        height: 5px;
+
+        background: #F9D342;
+
+        position:absolute;
+        top: -8px;
+        width: 0%;
+
+        transition: all ease-in-out 250ms;
+    }
+}
+
+
+#NavBarMenu a:hover::before
+{
+    width:90%;
+}
+
+.show
+{
+    margin-top: 5px;
+}
+
+

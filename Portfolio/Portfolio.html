@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zhenyu's Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/NavBar.css">
+    <link rel="stylesheet" href="css/Portfolio.css">
+    <link rel="stylesheet" href="css/Experience.css">
+    <link rel="stylesheet" href="Library/bootstrap.min.css" crossorigin="anonymous">
+    <script src="Library/jquery-3.3.1.js"></script>
+    <script src="Library/popper.min.js"></script>
+    <script src="Library/bootstrap.min.js"></script>
+    <script src="js/Portfolio.js"></script>
+
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md" id="NavBar">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBarMenu"
+                aria-controls="NavBarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="Icon/menu.png" style="width: 30px">
+        </button>
+        <div class="collapse navbar-collapse" id="NavBarMenu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#Home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Experiences">Experiences</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://github.com/zzyjason" >Github</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="Resources/Resumes.pdf">Resume</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Reflection">University Reflections</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div id="Home" class="text-white sectionA">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="jumbotron-text">
+                Welcome!
+            </h1>
+
+            <strong>
+                My name is <span style="color: #F9D342">Zhenyu Zhao</span>, I am a <span style="color: #F9D342">Computer Engineer</span>
+                that focus on software development.
+            </strong>
+
+        </div>
+
+        <div class="row justify-content-center">
+            <button id="Continue" style="width: 150px;" type="button" class="btn btn-secondary btn-lg">
+                Continue
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="About" class="text-white sectionB">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="jumbotron-text" style="border-bottom: white 1px solid; padding-bottom: 15px">
+                About Me
+            </h1>
+            <strong>
+                Hi, I'm a computer engineer that is going to gradate December 2019.
+                I focus in software development and have experience in both high and low level programming.
+                I believe that maintainability and architecture are important in software development.
+            </strong>
+            <br><br>
+            <strong>
+                Education: Bachelor of Science - Computer Engineering, &emsp;Minor in Business
+            </strong>
+            <br><br>
+            <strong>
+                Email: zzyjason@iastate.edu<br>
+                Phone: 515-402-5718
+            </strong>
+        </div>
+        <br>
+    </div>
+</div>
+
+<div id="Projects" class="text-white sectionA" style="padding-bottom: 30px;">
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="jumbotron-text" style="border-bottom: white 1px solid; padding-bottom: 15px">
+                Projects
+            </h1>
+            <br>
+            <div class="row justify-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 ">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: #62686d;">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <div class="row">
+                                <div class="col-6 align-self-start">
+                                    <div class="row">
+                                        <strong class="col-9">iOS Mobile Application – Student Tool </strong>
+                                        <strong class="col-3" style="font-size:.5rem; text-align: right;margin-left: auto;">
+                                            07/2017
+                                        </strong>
+
+                                        <p class="col-12" style="padding-top: 10px;">An iOS mobile application that can record student's course
+                                            grades and generate report base on data saved in the database.
+                                        </p>
+                                        <div class="col-12">
+                                            <span class="badge badge-info">Swift</span>
+                                            <span class="badge badge-info">Core Data Database</span>
+                                            <br>
+                                            <span class="badge badge-success">Personal Project</span>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <img class="" src="Icon/IOS.png" style="width: 150px; margin-left: 40%;">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-4" >
+                                    <video width="200" controls>
+                                        <source src="Resources/IMG_4031.MOV">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 ">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: #62686d;">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <div class="row">
+
+                                <strong class="col-8">Mars Rover Project</strong>
+                                <strong class="col-3" style="font-size:.5rem;">
+                                    07/2017
+                                </strong>
+
+                                <p class="col-12" style="padding-top: 10px;">
+                                    Built Mars rover module to simulate traverse the hazardous terrain
+                                    for retrieval at a preset zone. <br>
+                                    Programed an “autonomous” (self-moving) perform
+                                    project task successfully under two minutes. <br>
+                                </p>
+                                <div class="col-12">
+                                    <span class="badge badge-info">C</span>
+                                    <span class="badge badge-info">Tiva C Series TM4C123G LaunchPad</span>
+                                    <br>
+                                    <span class="badge badge-success">Course Project</span>
+                                    <span class="badge badge-success">Team Lead</span>
+                                </div>
+
+                                <div class="col-12" >
+                                    <br>
+                                    <video width="400" controls style="margin-left:19%">
+                                        <source src="Resources/IMG_3665.MOV">
+                                    </video>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 ">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: #62686d;">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <div class="row">
+
+                                <strong class="col-6">iOS Mobile Application – Reminder</strong>
+                                <strong class="col-4" style="font-size:.5rem; margin-left: auto;">
+                                    09/2017
+                                </strong>
+
+                                <p class="col-10" style="padding-top: 10px;">An iOS mobile application
+                                    that has different features for personal day to day planning.
+                                    The four different features are Regular To-Do List, Shopping List,
+                                    Expense Tracker, and Online Project Management.
+                                </p>
+                                <div class="col-10">
+                                    <span class="badge badge-info">Swift</span>
+                                    <span class="badge badge-info">PHP</span>
+                                    <span class="badge badge-info">Core Data Database</span>
+                                    <span class="badge badge-info">MySQL</span>
+                                    <br>
+                                    <span class="badge badge-success">Course Project</span>
+                                    <span class="badge badge-success">Team Lead</span>
+                                </div>
+
+                                <img src="Resources/Reminder.JPG" style="height: 300px;margin-left: 9%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 ">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: #62686d;">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <div class="row">
+
+                                <strong class="col-6">Truck Locator - Fleet Management </strong>
+                                <strong class="col-4" style="font-size:.5rem;margin-left: auto;">
+                                    02/2018
+                                </strong>
+
+                                <p class="col-10" style="padding-top: 10px;">
+                                    Created a Web App visualized data in database, shows GPS location of
+                                    trucks & info about trucks. Performance enhanced by server-side caching,
+                                    implemented REST API.
+                                </p>
+                                <div class="col-10">
+                                    <span class="badge badge-info">HTML</span>
+                                    <span class="badge badge-info">JavaScript</span>
+                                    <span class="badge badge-info">CSS</span>
+                                    <span class="badge badge-info">PHP</span>
+                                    <br>
+                                    <span class="badge badge-success">Coop Project</span>
+                                    <span class="badge badge-primary">Altec Inc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 ">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: #62686d;">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <div class="row">
+
+                                <strong class="col-8">Recoverability of Persistent Memory Systems</strong>
+                                <strong class="col-3" style="font-size:.5rem;">
+                                    01/2019
+                                </strong>
+
+                                <p class="col-12" style="padding-top: 10px;">
+                                    Analyze memory operations of the target application using
+                                    Intel Pin Tool API as research assistant.
+                                </p>
+                                <div class="col-12">
+                                    <span class="badge badge-info">C</span>
+                                    <span class="badge badge-info">Intel Pin Tool API</span>
+                                    <br>
+                                    <span class="badge badge-success">Research Project</span>
+                                    <span class="badge badge-success">Research Assistant</span>
+                                </div>
+
+                                <div class="col-12" >
+                                    <br>
+                                    <img style="width: 400px; margin-left: 20%" src="Resources/Research.JPG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 ">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250" style="background-color: #62686d;">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <div class="row">
+
+                                <strong class="col-8">Cloud File Storage</strong>
+                                <strong class="col-3" style="font-size:.5rem;">
+                                    01/2019
+                                </strong>
+
+                                <p class="col-10" style="padding-top: 10px;">
+                                    An application that allow cloud file storage and sharing for companies or teams.
+                                    The application has two interfaces that user can access, web application and Windows
+                                    desktop application.
+                                </p>
+                                <div class="col-10">
+                                    <span class="badge badge-info">C#</span>
+                                    <span class="badge badge-info">MySQL</span>
+                                    <br>
+                                    <span class="badge badge-success">Senior Design</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="Experiences" class="text-white sectionB">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="jumbotron-text" style="border-bottom: white 1px solid; padding-bottom: 15px">
+                Experiences
+            </h1>
+            <div id="experiences_content">
+                <div class="row">
+                    <div class="fullWidth eight columns">
+                        <ul class="cbp_tmtimeline">
+                            <li>
+                                <div class="cbp_tmicon cbp_tmicon-phone">
+                                    <img style="width:80px; margin-top: 35px" src="/Portfolio/Icon/business.png">
+                                </div>
+                                <div class="cbp_tmlabel fadeInRight animated">
+                                    <h3>Core Control Coop</h3>
+                                    <div class="date">
+                                        <i class="fa fa-calendar"></i>01/2018 – 06/2018
+                                    </div>
+                                    <h4><i class="fa fa-flag"></i>Altec Industries</h4>
+                                    <p class="projectParagraph">Created/supported and maintain different projects that supports other departments/suppliers, and different product.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cbp_tmicon cbp_tmicon-screen">
+                                    <img style="width:80px; margin-top: 35px" src="/Portfolio/Icon/business.png">
+                                </div>
+                                <div class="cbp_tmlabel fadeInRight animated">
+                                    <h3>Teaching Assistant</h3>
+                                    <h4><i class="fa fa-flag"></i>Iowa State University</h4>
+                                    <div class="date"><i class="fa fa-calendar"></i>08/2018 – 12/2018</div>
+                                    <p class="projectParagraph">
+                                        Held teaching assistant position in computer organization course with topics on
+                                        Assembly level programming, and processor design. <br>
+                                        With responsibility: Help construct exams, grade assignments/exams, and
+                                        holding office hours to work with student one-on-one.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cbp_tmicon cbp_tmicon-screen">
+                                    <img style="width:80px; margin-top: 35px" src="/Portfolio/Icon/business.png">
+                                </div>
+                                <div class="cbp_tmlabel fadeInRight animated">
+                                    <h3>Online Tutor</h3>
+                                    <h4><i class="fa fa-flag"></i>Online</h4>
+                                    <div class="date"><i class="fa fa-calendar"></i>08/2017 – Now</div>
+                                    <p class="projectParagraph">Provide one-on-one class for students on software
+                                        topics internationally.<br>
+                                        Topics includes C, Python, Java, Data Structure, Databases, and assembly
+                                        level programming.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cbp_tmicon cbp_tmicon-phone">
+                                    <img style="width:80px; margin-top: 35px" src="/Portfolio/Icon/business.png">
+                                </div>
+                                <div class="cbp_tmlabel fadeInRight animated">
+                                    <h3>System Team Student Developer</h3>
+                                    <h4><i class="fa fa-flag"></i>Iowa State University Admissions</h4>
+                                    <div class="date"><i class="fa fa-calendar"></i>01/2019 – Now</div>
+                                    <p class="projectParagraph">
+                                        Provide assistant within system team solving problems for internal staff.
+                                        Maintain current PHP applications with MySQL database upon internal staff requests.
+                                        Create new components/features for existing PHP microservices.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+
+<div id="Reflection" class="text-white sectionA" style="padding-bottom: 50px">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="jumbotron-text" style="border-bottom: white 1px solid; padding-bottom: 15px">
+                Reflections
+            </h1>
+            <strong>
+                Cumulative Reflection
+            </strong>
+            <p>
+                Four years in college sounds a long time, but really goes fast. As time flies, I have learned many
+                technical knowledges, and the most importantly, system design. The further I dive into the software
+                field, I realize there are important elements in software development. I believe that software
+                architecture and maintainability play important roles in the software development. In the four
+                years of college experiences, I have taken technical courses from low level as electrical hardware
+                up to up level web development. I believe this experience can help me later designing software system
+                and have better overview on projects. I have involved in different group project inside and outside of
+                class. This will help me solving engineering problem later in my career. It will also help me prepare
+                for working in groups. <br>
+                Sometime in class, I have taken further steps to successfully complete projects to me. For example,
+                I have taken an online course from Stanford to learn about iOS development. This was one of the key
+                factors to be successful in a semester long project. There were many times in my learning that I felt
+                I need more knowledge beyond classes. This is where I have done personal projects, and interns to
+                further expand my technical knowledge. In facts, I felt I have learned more outside of class than in
+                class, when I look back in my skill sets. In my senior year, I also involved in research project as
+                research assistance. This is really something new to me, because most of the work has very little work
+                done in the software community. At the end, I really think the four years of college experience is very
+                meaningful to me; and I believe this prepared me in my future careers. <br>
+            </p>
+            <br><br>
+
+            <strong>
+                General Education Reflection
+            </strong>
+            <p>
+                There are many factors for being an engineer, for example technical knowledge, communication skill,
+                and teamwork. Often time, students left behind one of the important factors, general knowledge.
+                General knowledge could help in many aspects in engineering work. For example, having related knowledge
+                can help engineer better understand the client’s needs and concerns. This is an important step in
+                design thinking, empathize. General knowledge can be useful in daily work, it could come in handy when
+                communicate with different departments.  <br>
+                In my four years of colleges of experience, I have decided to take business and other personal finance
+                planning courses to extent my general knowledge. I planned to take additional classes to complete
+                business minor, because I think general knowledge can be very helpful regardless I will be an employee
+                or self-employed. Personal finance planning course can help me making smarter choices with personal
+                finance.  <br>
+                There were many useful general education classes that are worth to mention. One of the class is
+                introduction to management. By understand the management model, it can help me better
+                communicate with my co-worker and supervisors. Understand major management challenge can help me better
+                prepare to become manager or tech lead later in my career. Another valuable class is personal finance
+                planning. The class provides useful content such as retirement planning, and employee benefits.
+                I believe this can be very helpful for making personal finance decisions. <br>
+                I believe that general education knowledge can be very helpful in my career, and personal life.
+                With many general education courses I have taken, I believe that this will be strong help toward
+                my career. <br>
+            </p>
+            <br><br>
+
+
+            <strong>
+                Ethics  Reflection
+            </strong>
+            <p>
+                The definition of Ethics is moral principles that govern a person’s behavior or the conducting of
+                an activity. It is important to many different job field, especially in engineering. Because the job that an
+                engineer does is that design and build a system that is wildly used by many people. An un‐ethics action
+                might have cause terrible incident that would cost a lot of money or people’s life.   <br>
+                The purpose of having code of ethics is preventing un‐ethics action accident made by an
+                engineer. In many cases, it would be hard for engineer to identify what action would be un‐ethics, and
+                code of ethics identify them. When faced with an ethical situation, I would go about following the code
+                of ethics, but also taking account of is there any other alternative to solve the problem. Also I will look at
+                if the action would be illegal or not in the current country. <br>
+                There were a few ethics case discussed within the group. One of them was the article “An
+                Amazon Echo may be the key to solving a murder case”. It was about a murder happen inside of a house
+                that had equipped with amazon echo. The FBI thinks that amazon echo might have send some voice
+                record related to the murder case, so that FBI wanted amazon to release the information. Amazon
+                actually refused to release the information to the public or the FBI.   <br>
+                I think the 6 virtues that is most related to case is Responsibility. Other virtues isn’t really related
+                to the case. What responsibility is accountability, trustworthiness, dependability, reliability, and
+                recognizing a personal and moral obligation to act for the good of others. In this case, amazon decided
+                not to release its customer private information to the public or FIB. I think that is the responsibility that
+                amazon should take on, it should have protected its customer private information.  <br>
+            </p>
+        </div>
+    </div>
+    <a style="float: right;margin-right: 30px;color: white;" href="https://icons8.com/icon/2333/business">icon by Icons8</a>
+</div>
+
+
+
+</body>
+
+</html>
+

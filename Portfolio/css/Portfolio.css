@@ -1,0 +1,41 @@
+.sectionA
+{
+    background: #101d2b;
+}
+
+.sectionB
+{
+    background: #62686d;
+}
+
+#Home
+ {
+    height: 100vh;
+ }
+
+
+.jumbotron
+{
+    background-color: transparent!important;
+}
+
+#Home h1:first-child
+{
+    padding-top: 20vh;
+    font-size: 5em;
+}
+
+#Home strong
+{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#About strong
+{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+
